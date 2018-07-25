@@ -1,0 +1,58 @@
+2018-01-15 10:54:34.882|D| configuration..
+set node.coapport 5683
+set block1size 1024
+set block2size 1024
+set block1trigger 1400
+set block2trigger 1400
+set tokenlen 4
+set coap.ack_timeout 2
+set lwm2m.use_bs_server 0
+set lwm2m.all_rsc 0
+set lwm2m.regpath rd
+set lwm2m.version 1.0
+set lwm2m.endpoint etri-client
+set lwm2m.sms 0123456789
+set lwm2m.bindmode 
+set lwm2m.firmware_lock 0
+set lwm2m.device.security-method 
+2018-01-15 10:54:34.883|W| rsc_get_strvalue_uri: not found or not endnode : <lw_conbind_set_by_obj_security>
+2018-01-15 10:54:34.883|D| [-01] <lwm2m_start>
+2018-01-15 10:54:34.883|D| [-01] <lwm2m_rsc_init>
+2018-01-15 10:54:34.883|I| FIRMWARE_VERSION: 1.0
+2018-01-15 10:54:34.883|I| Set 5/0/5 0
+2018-01-15 10:54:34.885|I| open coap server socket: port 5683, sock(4)
+2018-01-15 10:54:34.886|E| #Fail: <lwm2m_start> reinitailize socket fail, ret(-5)
+2018-01-15 10:54:34.886|D| [-01] <lwm2m_start_update_timer>
+2018-01-15 10:54:34.886|D| [-01] </lwm2m_start_update_timer>
+2018-01-15 10:54:35.886|W| lwm2m_check_and_notify: couldn't find server object dn
+2018-01-15 10:54:36.887|W| lwm2m_check_and_notify: couldn't find server object dn
+2018-01-15 10:54:37.887|W| lwm2m_check_and_notify: couldn't find server object dn
+2018-01-15 10:54:38.888|W| lwm2m_check_and_notify: couldn't find server object dn
+2018-01-15 10:54:39.889|W| lwm2m_check_and_notify: couldn't find server object dn
+2018-01-15 10:54:47.957|D| configuration..
+set node.coapport 5683
+set block1size 1024
+set block2size 1024
+set block1trigger 1400
+set block2trigger 1400
+set tokenlen 4
+set coap.ack_timeout 2
+set lwm2m.use_bs_server 0
+set lwm2m.all_rsc 0
+set lwm2m.regpath rd
+set lwm2m.version 1.0
+set lwm2m.endpoint etri-client
+set lwm2m.sms 0123456789
+set lwm2m.bindmode 
+set lwm2m.firmware_lock 0
+set lwm2m.device.security-method 
+2018-01-15 10:54:47.957|W| rsc_get_strvalue_uri: not found or not endnode : <lw_conbind_set_by_obj_security>
+2018-01-15 10:54:47.957|D| [-01] <lwm2m_start>
+2018-01-15 10:54:47.957|D| [-01] <lwm2m_rsc_init>
+2018-01-15 10:54:47.957|I| FIRMWARE_VERSION: 1.0
+2018-01-15 10:54:47.958|I| Set 5/0/5 0
+2018-01-15 10:54:47.960|I| open coap server socket: port 5683, sock(4)
+2018-01-15 10:54:47.960|E| #Fail: <lwm2m_start> reinitailize socket fail, ret(-5)
+2018-01-15 10:54:47.960|D| [-01] <lwm2m_start_update_timer>
+2018-01-15 10:54:47.960|D| [-01] </lwm2m_start_update_timer>
+2018-01-15 10:54:48.960|W| lwm2m_check_and_notify: couldn't find server object dn
